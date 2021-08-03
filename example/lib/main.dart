@@ -44,41 +44,44 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: PingView(
-          ispInformationText: TextSpan(
-            style: TextStyle(
-              color: Colors.black,
-              fontSize: 12,
-            ),
-            children: <TextSpan>[
-              TextSpan(
-                text: "LOREM SERVER\n",
-                style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w500,
+        child: Container(
+          height: 240,
+          child: PingView(
+            ispInformationText: TextSpan(
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 12,
+              ),
+              children: <TextSpan>[
+                TextSpan(
+                  text: "LOREM SERVER\n",
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
-              ),
-              TextSpan(
-                  text: "São Paulo, Brasil",
-                  style: TextStyle(color: Colors.grey[600])),
-            ],
-          ),
-          locationInformatinText: TextSpan(
-            style: TextStyle(
-                color: Colors.grey[600],
-                fontSize: 10,
-                fontWeight: FontWeight.w500),
-            children: <TextSpan>[
-              TextSpan(text: "IP Interno: 198.162.1.8\n"),
-              TextSpan(text: "IP Externo: 198.162.1.7\n"),
-              TextSpan(
-                text: "Operadora: Jio",
-              ),
-            ],
-          ),
-          techInformationText: TextSpan(
-            text: "LTE",
-            style: TextStyle(color: Color(0xFF3ebdb8), fontSize: 11),
+                TextSpan(
+                    text: "São Paulo, Brasil",
+                    style: TextStyle(color: Colors.grey[600])),
+              ],
+            ),
+            locationInformatinText: TextSpan(
+              style: TextStyle(
+                  color: Colors.grey[600],
+                  fontSize: 10,
+                  fontWeight: FontWeight.w500),
+              children: <TextSpan>[
+                TextSpan(text: "IP Interno: 198.162.1.8\n"),
+                TextSpan(text: "IP Externo: 198.162.1.7\n"),
+                TextSpan(
+                  text: "Operadora: Jio",
+                ),
+              ],
+            ),
+            techInformationText: TextSpan(
+              text: "LTE",
+              style: TextStyle(color: Color(0xFF3ebdb8), fontSize: 11),
+            ),
           ),
         ),
       ),
