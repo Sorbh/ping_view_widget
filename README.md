@@ -87,7 +87,8 @@ PingViewWidget(
 
 
 # Screenshots
-![Simulator Screen Shot - iPhone 11 Pro - 2021-08-04 at 07 50 09](https://user-images.githubusercontent.com/14270768/128113120-913ab141-c216-4f46-b0b9-9eaa216107cd.png)  ![pingViewWidgetDemo](https://user-images.githubusercontent.com/14270768/128113123-22bdc507-a60a-4333-87fa-76057fb04eeb.gif)
+![Simulator Screen Shot - iPhone 11 Pro - 2021-08-04 at 07 50 09](https://user-images.githubusercontent.com/14270768/128113120-913ab141-c216-4f46-b0b9-9eaa216107cd.png)  
+![pingViewWidgetDemo](https://user-images.githubusercontent.com/14270768/128113123-22bdc507-a60a-4333-87fa-76057fb04eeb.gif)
 
 
 
