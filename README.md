@@ -102,7 +102,11 @@ PingViewWidget(
   * **Saurabh K Sharma - [GIT](https://github.com/Sorbh)**
   
       I am very new to open source community. All suggestion and improvement are most welcomed. 
-  
+      
+
+# Contributors
+ @all-contributors bot!
+ 
  
 ## Contributing
 
