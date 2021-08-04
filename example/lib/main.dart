@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Container(
           height: 240,
-          child: PingView(
+          child: PingViewWidget(
             ispInformationText: TextSpan(
               style: TextStyle(
                 color: Colors.black,

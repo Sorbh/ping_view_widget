@@ -9,7 +9,7 @@ import 'package:ping_view_widget/ping_view_theme_data.dart';
 
 enum PingDirection { LEFT_TO_RIGHT, RIGHT_TO_LEFT }
 
-class PingView extends StatefulWidget {
+class PingViewWidget extends StatefulWidget {
   final TextSpan locationInformatinText;
   final TextSpan ispInformationText;
   final TextSpan techInformationText;
@@ -18,7 +18,7 @@ class PingView extends StatefulWidget {
   final PingDirection pingDirection;
   final bool running;
 
-  PingView({
+  PingViewWidget({
     Key? key,
     required this.locationInformatinText,
     required this.ispInformationText,
@@ -30,10 +30,10 @@ class PingView extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _PingViewState createState() => _PingViewState();
+  _PingViewWidgetState createState() => _PingViewWidgetState();
 }
 
-class _PingViewState extends State<PingView>
+class _PingViewWidgetState extends State<PingViewWidget>
     with SingleTickerProviderStateMixin {
   late AnimationController pingAnimationController;
 
@@ -104,7 +104,7 @@ class _PingViewWidgetObject extends LeafRenderObjectWidget {
     );
   }
 
-  final _PingViewState state;
+  final _PingViewWidgetState state;
   final PingViewThemeData themeData;
 
   @override
@@ -119,7 +119,7 @@ class _PingViewRenderBox extends RenderBox {
   //  Color(0xFF76cbd5)
   // final Color startColor;
   // final Color endColor;
-  final _PingViewState state;
+  final _PingViewWidgetState state;
   final PingViewThemeData themeData;
   late Animation<double> _pingAnimation;
   late Animation<Color?> _pingColorAnimation;
