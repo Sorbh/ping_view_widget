@@ -105,7 +105,13 @@ PingViewWidget(
       
 
 # Contributors
- @all-contributors bot!
+[//]: contributor-faces
+
+<a href="https://github.com/Sorbh"><img src="https://avatars.githubusercontent.com/u/8159377?v=4" title="ngryman" width="80" height="80"></a>
+
+<a href="https://github.com/RohitKumarMishra"><img src="https://avatars.githubusercontent.com/u/8159377?v=4" title="ngryman" width="80" height="80"></a>
+
+[//]: contributor-faces
  
  
 ## Contributing
