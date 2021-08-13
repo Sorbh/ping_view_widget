@@ -1,10 +1,10 @@
 
 # PingViewWidget
-PingViewWidget is a simple and customizable animated connecting button widget [PingViewWidget](https://github.com/Sorbh/PingViewWidget)
+PingViewWidget is a simple and customizable animated connecting button widget [PingViewWidget](https://github.com/Sorbh/ping_view_widget/)
 
 The source code is **100% Dart**.
 
-[![pub package](https://img.shields.io/pub/v/kdgaugeview.svg?style=flat-square)](https://pub.dartlang.org/packages/PingViewWidget)  ![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg?style=flat-square)
+[![pub package](https://img.shields.io/pub/v/kdgaugeview.svg?style=flat-square)](https://pub.dartlang.org/packages/ping_view_widget)  ![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg?style=flat-square)
 
 
 # Motivation
